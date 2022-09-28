@@ -19,7 +19,7 @@ from gym.wrappers.time_limit import TimeLimit
 import os
 cwd = os.getcwd()
 
-nb_actuations = 400 # Number of actions (NN actuations) taken per episode (Number of action intervals)
+nb_actuations = 350 # Number of actions (NN actuations) taken per episode (Number of action intervals)
 simulation_duration = 200
 
 def resume_env(plot=False,  # To plot results (Field, controls, lift, drag, rec area) during training
